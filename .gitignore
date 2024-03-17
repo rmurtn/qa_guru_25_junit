@@ -1,19 +1,16 @@
-HELP.md
-build/
-!**/src/main/**
-!**/src/test/**
-
-### Intellij IDEA ###
-.idea
-.iws
-.iml
-.ipr
-
-### Gradle ###
 .gradle
-settings.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### Logs ###
-*.log
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 .DS_Store
